@@ -16,47 +16,14 @@ export default function MainContent() {
     const prevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 0))
 
     const pages = [
-        // Cover Page
-        <StoryPage key="cover" backgroundColor="bg-gradient-to-br from-rose-200 to-purple-200">
-            <div className="flex flex-col items-center justify-center h-full text-center">
-                <motion.div
-                    initial={{ scale: 0 }}
-                    animate={{ scale: 1 }}
-                    transition={{ duration: 0.5 }}
-                    className="w-44 h-44 mb-8 rounded-full overflow-hidden shadow-md"
-                >
-                    <Image
-                        src="https://images.pexels.com/photos/371285/pexels-photo-371285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        alt="Heart icon"
-                        priority={true}
-                        width={176}
-                        height={176}
-                        className="object-cover w-full h-full"
-                    />
-                </motion.div>
-                <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-4 relative z-10">
-                    Our Special Story
-                </h1>
-                <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
-                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'bakchodi partner', 'paglu', 'vc partner', 'world']} className="text-nowrap" />
-                </div>
-                <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="bg-pink-500 text-white px-6 py-3 rounded-full text-lg shadow-btn hover:bg-pink-600 transition-colors duration-300"
-                    onClick={nextPage}
-                >
-                    Open Our Story
-                </motion.button>
-            </div>
-        </StoryPage>,
+        
 
         // Our Journey Page
         <StoryPage key="journey" backgroundColor="bg-gradient-to-br from-blue-200 to-green-200">
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '28 April, 2025', event: 'Our Journey Began', emoji: '❤️' },
+                    { date: '28 April, 2026', event: 'Our Journey Began', emoji: '❤️' },
                     { date: '9 May, 2025', event: 'First Movie Together On Tele VC', emoji: '🎬' },
                     { date: 'WAITING', event: 'First Hug', emoji: '🤗' },
                     { date: 'WAITING', event: 'First Trip Together', emoji: '✈️' },
@@ -131,7 +98,7 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-indigo-600 mb-6 relative z-10">Memorable Moments</h2>
             <div className="flex-1 rounded-2xl overflow-y-auto overflow-x-hidden custom-scrollbar">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 rounded-2xl">
-                    {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+                    {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => (
                         <motion.div
                             key={i}
                             initial={{ opacity: 0, scale: 0.8 }}
@@ -142,7 +109,7 @@ export default function MainContent() {
                         >
                             {/* If you want to show your pics then you can save your pics in public/images folder like this 1.jpg, 2.jpg, 3.jpg then replace the src to this - /images/${i}.jpg */}
                             <Image
-                                src={`https://images.pexels.com/photos/1759823/pexels-photo-1759823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+                                src={`/images/${i}.jpg`}
                                 alt={`Gallery image ${i}`}
                                 width={330}
                                 height={270}
