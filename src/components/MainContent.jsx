@@ -140,7 +140,7 @@ export default function MainContent() {
         // Final Page
         <StoryPage key="final" backgroundColor="bg-gradient-to-br from-blue-100 to-cyan-200">
             <div className="flex flex-col items-center justify-center h-full text-center">
-                <h2 className="text-4xl font-bold text-pink-600 mb-6 relative z-10">Our Story Continues...</h2>
+                <h2 className="text-4xl font-bold text-blue-600 mb-6 relative z-10">Our Story Continues...</h2>
                 <p className="text-xl text-blue-700 mb-8 relative z-10">
                     Every moment we share is another step in our unforgettable story.
                 </p>
@@ -185,7 +185,7 @@ export default function MainContent() {
                     onClick={prevPage}
                     className="fixed left-4 top-1/2 transform -translate-y-1/2 p-3 bg-white/50 rounded-full shadow-md hover:bg-white transition-colors duration-300 z-40"
                 >
-                    <ChevronLeft className="text-pink-600" />
+                    <ChevronLeft className="text-blue-600" />
                 </button>
             )}
 
@@ -194,7 +194,7 @@ export default function MainContent() {
                     onClick={nextPage}
                     className="fixed right-4 top-1/2 transform -translate-y-1/2 p-3 bg-white/50 rounded-full shadow-md hover:bg-white transition-colors duration-300 z-40"
                 >
-                    <ChevronRight className="text-pink-600" />
+                    <ChevronRight className="text-blue-600" />
                 </button>
             )}
 
@@ -210,14 +210,14 @@ export default function MainContent() {
                         onClick={() => setSelectedImage(null)}
                         className="fixed left-1/2 top-4 transform -translate-x-1/2 p-3 bg-white/50 rounded-full shadow-md hover:bg-white transition-colors duration-300 z-40"
                     >
-                        <X className="text-pink-500" />
+                        <X className="text-blue-500" />
                     </button>
 
                     <motion.div
                         initial={{ scale: 0.2 }}
                         animate={{ scale: 1 }}
                         exit={{ scale: 0.8 }}
-                        className="bg-pink-50 p-4 rounded-3xl shadow-2xl max-w-fit w-full h-max overflow-hidden"
+                        className="bg-blue-50 p-4 rounded-3xl shadow-2xl max-w-fit w-full h-max overflow-hidden"
                         onClick={(e) => e.stopPropagation()}
                     >
                         {/* When showing your own pics replace image src with this - /images/${selectedImage}.jpg */}
