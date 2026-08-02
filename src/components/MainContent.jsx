@@ -103,7 +103,7 @@ export default function MainContent() {
                     </div>
                     <p className="text-right text-rose-600 font-semibold">
                         Forever yours,<br />
-                        Urs Lakshu..❤️
+                        Ur love..❤️
                     </p>
                 </div>
             </div>
