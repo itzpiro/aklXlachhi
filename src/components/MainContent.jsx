@@ -24,11 +24,11 @@ export default function MainContent() {
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
                     { date: '08 Fed, 2026', event: 'Our Journey Began', emoji: '❤️' },
-                    { date: '9 May, 2025', event: 'First Movie Together On Tele VC', emoji: '🎬' },
+                    { date: 'WAITING', event: 'First Movie Together ', emoji: '🎬' },
                     { date: 'WAITING', event: 'First Hug', emoji: '🤗' },
                     { date: 'WAITING', event: 'First Trip Together', emoji: '✈️' },
                     { date: 'HEHEHE', event: 'First Fight & Patch-up', emoji: '💬' },
-                    { date: 'JANE DEH', event: 'First Christmas Together', emoji: '🎄' },
+                    { date: 'IYKYK', event: 'First Christmas Together', emoji: '🎄' },
                 ]
                     .map((item, index) => (
                         <motion.div
