@@ -49,7 +49,7 @@ export default function SecretCodeCard({ onCorrect }) {
                             type="password"
                             value={code}
                             onChange={(e) => setCode(e.target.value)}
-                            className="w-full px-4 py-2 text-center bg-pink-50 border-2 border-pink-300 rounded-full focus:outline-none focus:border-purple-400 transition-colors duration-300"
+                            className="w-full px-4 py-2 text-center bg-blue-50 border-2 border-blue-300 rounded-full focus:outline-none focus:border-blue-500 transition-colors duration-300"
                             placeholder="Enter secret code"
                             maxLength={6}
                             required
@@ -66,7 +66,7 @@ export default function SecretCodeCard({ onCorrect }) {
                             initial={{ opacity: 0, y: -10 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -10 }}
-                            className="bg-pink-100 border-l-4 border-pink-500 text-pink-700 p-3 rounded-md shadow-sm"
+                            className="bg-blue-100 border-blue-500 text-blue-700 p-3 rounded-md shadow-sm"
                         >
                             {error}
                         </motion.p>
@@ -75,7 +75,7 @@ export default function SecretCodeCard({ onCorrect }) {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         type="submit"
-                        className="bg-[#A569BD] w-full font-medium text-white px-6 py-2 shadow-btn rounded-full hover:bg-[#995db1]"
+                        className="bg-blue-500 hover:bg-blue-600 w-full font-medium text-white px-6 py-2 shadow-btn rounded-full hover:bg-[#995db1]"
                     >
                         Unlock
                     </motion.button>

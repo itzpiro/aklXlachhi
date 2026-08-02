@@ -27,14 +27,14 @@ export default function Loader({ onFinish }) {
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ repeat: Infinity, duration: 0.8 }}
             >
-                <Heart className="w-20 h-20 text-pink-500" fill="currentColor" />
+                <Heart className="w-20 h-20 text-blue-500" fill="currentColor" />
             </motion.div>
             <p className="mt-4 text-xl font-medium text-center px-4 text-gradient">
                 Take a deep breath, my love. A special surprise awaits you...
             </p>
-            <div className="w-64 h-2 bg-pink-200 rounded-full mt-4 overflow-hidden">
+            <div className="w-64 h-2 bg-blue-200 rounded-full mt-4 overflow-hidden">
                 <motion.div
-                    className="h-full bg-pink-500"
+                    className="h-full bg-blue-500"
                     initial={{ width: 0 }}
                     animate={{ width: `${progress}%` }}
                 />

@@ -42,7 +42,7 @@ export default function QuestionCard({ emoji, question, onAnswer, showButtons = 
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.98 }}
                                 onClick={() => onAnswer(true)}
-                                className="bg-[#A569BD] font-medium text-white px-6 py-2 shadow-btn rounded-full hover:bg-[#995db1]"
+                                className=" bg-blue-500 hover:bg-blue-600 font-medium text-white px-6 py-2 shadow-btn rounded-full hover:bg-[#995db1]"
                             >
                                 Yesss
                             </motion.button>
@@ -50,7 +50,7 @@ export default function QuestionCard({ emoji, question, onAnswer, showButtons = 
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.98 }}
                                 onClick={() => onAnswer(false)}
-                                className="bg-[#957DAD] font-medium text-white px-6 py-2 rounded-full hover:bg-[#9c88b1]"
+                                className="bg-sky-400 hover:bg-sky-500 font-medium text-white px-6 py-2 rounded-full hover:bg-[#9c88b1]"
                             >
                                 Nooo
                             </motion.button>

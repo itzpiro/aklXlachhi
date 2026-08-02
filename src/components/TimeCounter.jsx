@@ -28,8 +28,8 @@ const TimeUnit = ({ value, unit }) => (
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
     >
-        <span className="text-2xl font-bold text-pink-600 relative z-10">{value}</span>
-        <span className="text-xs text-purple-600 relative z-10">{unit}</span>
+        <span className="text-2xl font-bold text-blue-600 relative z-10">{value}</span>
+        <span className="text-xs indigo-600 relative z-10">{unit}</span>
     </motion.div>
 )
 
@@ -46,7 +46,7 @@ export const TimeCounter = ({ startDate, label }) => {
 
     return (
         <div className="mb-6">
-            <h3 className="text-xl font-semibold text-purple-600 mb-2">{label}</h3>
+            <h3 className="text-xl font-semibold text-indigo-600 mb-2">{label}</h3>
             <div className="flex justify-center space-x-2">
                 <TimeUnit value={time.years} unit={time.years === 1 ? "Year" : "Years"} />
                 <TimeUnit value={time.months} unit={time.months === 1 ? "Month" : "Months"} />

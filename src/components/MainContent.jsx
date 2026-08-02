@@ -49,7 +49,7 @@ export default function MainContent() {
         </StoryPage>,
 
         // Time Together Page
-        <StoryPage key="time" backgroundColor="bg-gradient-to-br from-pink-200 to-purple-200">
+        <StoryPage key="time" backgroundColor="bg-gradient-to-br from-sky-200 to-indigo-200">
             <div className="flex flex-col items-center justify-center h-full text-center px-4">
                 <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6 relative z-10">Our Time Together</h2>
                 <div className="w-full max-w-md space-y-8">
@@ -138,7 +138,7 @@ export default function MainContent() {
         </StoryPage>,
 
         // Final Page
-        <StoryPage key="final" backgroundColor="bg-gradient-to-br from-pink-100 to-blue-200">
+        <StoryPage key="final" backgroundColor="bg-gradient-to-br from-blue-100 to-cyan-200">
             <div className="flex flex-col items-center justify-center h-full text-center">
                 <h2 className="text-4xl font-bold text-pink-600 mb-6 relative z-10">Our Story Continues...</h2>
                 <p className="text-xl text-blue-700 mb-8 relative z-10">
@@ -154,7 +154,7 @@ export default function MainContent() {
                 <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-rose-500 text-white px-6 py-3 rounded-full text-lg shadow-btn hover:bg-rose-600 transition-colors duration-300"
+                    className="bg-blue-500 text-white px-6 py-3 rounded-full text-lg shadow-btn hover:bg-blue-600 transition-colors duration-300"
                     onClick={() => setCurrentPage(0)}
                 >
                     Start Over
@@ -172,7 +172,7 @@ export default function MainContent() {
                         transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
                         className="absolute"
                     >
-                        <HeartIcon size={200} className='fill-pink-100 stroke-none' />
+                        <HeartIcon size={200} className='fill-blue-100 stroke-none' />
                     </motion.div>
                     <AnimatePresence mode="wait">
                         {pages[currentPage]}

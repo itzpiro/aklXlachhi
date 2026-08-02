@@ -7,7 +7,7 @@ export default function FallingHearts() {
         const canvas = canvasRef.current; // Get the canvas element from the ref
         const ctx = canvas.getContext("2d"); // Get the 2d context for drawing
         const hearts = []; // Array to store heart objects
-        const colors = ["#FFCCE5", "#F2C9D4", "#E0B0FF", "#F8D1DC", "#FAD0C7"];// Lovely colors for hearts
+        const colors = ["#DBEAFE","#BFDBFE","#93C5FD","#60A5FA","#3B82F6"];;// Lovely colors for hearts
         const maxHearts = 20; // Total number of hearts
 
         // Function to set the initial canvas size
