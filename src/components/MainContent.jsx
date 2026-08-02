@@ -24,10 +24,10 @@ export default function MainContent() {
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
                     { date: '08 Fed, 2026', event: 'Our Journey Began', emoji: '❤️' },
-                    { date: 'WAITING', event: 'First Movie Together ', emoji: '🎬' },
+                    { date: 'Roj ka hai!', event: 'First Fight & Patch-up', emoji: '💬' },
                     { date: 'WAITING', event: 'First Hug', emoji: '🤗' },
                     { date: 'WAITING', event: 'First Trip Together', emoji: '✈️' },
-                    { date: 'HEHEHE', event: 'First Fight & Patch-up', emoji: '💬' },
+                    { date: 'WAITING', event: 'First Movie Together ', emoji: '🎬' },
                     { date: 'IYKYK', event: 'First Christmas Together', emoji: '🎄' },
                 ]
                     .map((item, index) => (
@@ -88,14 +88,14 @@ export default function MainContent() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
                 >
-                    Every moment with you is a treasure!
+                    {/* Every moment with you is a treasure! */}
                 </motion.p>
             </div>
         </StoryPage>,
 
         // Letter page
         <StoryPage key="letter" backgroundColor="bg-gradient-to-br from-blue-200 to-gray-200">
-            <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">A Special Message</h2>
+            <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">A Message for mine Bachhu</h2>
             <div className="bg-white rounded-xl p-6 shadow-md overflow-y-auto flex-1 custom-scrollbar">
                 <div className="relative z-10">
                     <div className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -103,7 +103,7 @@ export default function MainContent() {
                     </div>
                     <p className="text-right text-rose-600 font-semibold">
                         Forever yours,<br />
-                        Your love❤️
+                        Urs Lakshu..❤️
                     </p>
                 </div>
             </div>
@@ -111,7 +111,7 @@ export default function MainContent() {
 
         // Photo Gallery Page
         <StoryPage key="gallery" backgroundColor="bg-gradient-to-br from-blue-50 to-cyan-100">
-            <h2 className="text-3xl font-bold text-indigo-600 mb-6 relative z-10">Memorable Moments</h2>
+            <h2 className="text-3xl font-bold text-indigo-600 mb-6 relative z-10">Your beauty</h2>
             <div className="flex-1 rounded-2xl overflow-y-auto overflow-x-hidden custom-scrollbar">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 rounded-2xl">
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => (
