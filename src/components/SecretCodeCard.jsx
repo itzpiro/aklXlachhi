@@ -51,7 +51,7 @@ export default function SecretCodeCard({ onCorrect }) {
                             onChange={(e) => setCode(e.target.value)}
                             className="w-full px-4 py-2 text-center bg-blue-50 border-2 border-blue-300 rounded-full focus:outline-none focus:border-blue-500 transition-colors duration-300"
                             placeholder="Enter secret code"
-                            maxLength={6}
+                            maxLength={15}
                             required
                         />
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
