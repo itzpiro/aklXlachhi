@@ -23,7 +23,7 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '28 April, 2026', event: 'Our Journey Began', emoji: '❤️' },
+                    { date: '08 Fed, 2026', event: 'Our Journey Began', emoji: '❤️' },
                     { date: '9 May, 2025', event: 'First Movie Together On Tele VC', emoji: '🎬' },
                     { date: 'WAITING', event: 'First Hug', emoji: '🤗' },
                     { date: 'WAITING', event: 'First Trip Together', emoji: '✈️' },
@@ -59,7 +59,7 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
                         <TimeCounter
-                            startDate="2019-10-23"
+                            startDate="2025-10-23"
                             label="As Friends"
                         />
                     </motion.div>
@@ -69,8 +69,8 @@ export default function MainContent() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <TimeCounter
-                            startDate="2022-01-14"
-                            label="As a Couple"
+                            startDate="2026-02-08"
+                            label="As a confident frnds"
                         />
                     </motion.div>
                 </div>
