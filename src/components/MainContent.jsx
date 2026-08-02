@@ -93,6 +93,22 @@ export default function MainContent() {
             </div>
         </StoryPage>,
 
+        // Letter page
+        <StoryPage key="letter" backgroundColor="bg-gradient-to-br from-blue-200 to-gray-200">
+            <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">A Special Message</h2>
+            <div className="bg-white rounded-xl p-6 shadow-md overflow-y-auto flex-1 custom-scrollbar">
+                <div className="relative z-10">
+                    <div className="text-gray-700 text-lg leading-relaxed mb-4">
+                        <p>From the very first moment our paths crossed, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. As we continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day.💖</p>
+                    </div>
+                    <p className="text-right text-rose-600 font-semibold">
+                        Forever yours,<br />
+                        Your love❤️
+                    </p>
+                </div>
+            </div>
+        </StoryPage>,
+
         // Photo Gallery Page
         <StoryPage key="gallery" backgroundColor="bg-gradient-to-br from-blue-50 to-cyan-100">
             <h2 className="text-3xl font-bold text-indigo-600 mb-6 relative z-10">Memorable Moments</h2>
@@ -121,21 +137,7 @@ export default function MainContent() {
             </div>
         </StoryPage>,
 
-        // Letter page
-        <StoryPage key="letter" backgroundColor="bg-gradient-to-br from-blue-200 to-gray-200">
-            <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">A Special Message</h2>
-            <div className="bg-white rounded-xl p-6 shadow-md overflow-y-auto flex-1 custom-scrollbar">
-                <div className="relative z-10">
-                    <div className="text-gray-700 text-lg leading-relaxed mb-4">
-                        <p>From the very first moment our paths crossed, life has felt more beautiful, more exciting, and more meaningful. Every smile, every conversation, and every memory we've shared has built a story so precious that no words can truly capture it. I feel incredibly grateful to have someone like you by my side, someone who understands me without even saying a word, someone who brings light even on the darkest days. Through ups and downs, laughter and tears, you've been a constant source of strength and happiness. As we continue to write our journey together, I want you to always remember that you are deeply cherished, endlessly appreciated, and truly loved. Here's to the countless memories we've yet to create and the beautiful future that awaits us. You are, and always will be, my favorite part of every day.💖</p>
-                    </div>
-                    <p className="text-right text-rose-600 font-semibold">
-                        Forever yours,<br />
-                        Your love❤️
-                    </p>
-                </div>
-            </div>
-        </StoryPage>,
+        
 
         // Final Page
         <StoryPage key="final" backgroundColor="bg-gradient-to-br from-blue-100 to-cyan-200">
