@@ -25,7 +25,7 @@ export default function MainContent() {
                 {[
                     { date: '08 Fed, 2026', event: 'Our Journey Began', emoji: '❤️' },
                     { date: '08 , Aug ' ,event: 'First Fight & Patch-up', emoji: '💬' },
-                    { date: 'WAITING', event: 'First Hug', emoji: '🤗' },
+                    { date: '10 Aug', event: 'First Hug', emoji: '🤗' },
                     { date: 'WAITING', event: 'First Trip Together', emoji: '✈️' },
                     { date: 'WAITING', event: 'First Movie Together ', emoji: '🎬' },
                     { date: 'IYKYK', event: 'First Christmas Together', emoji: '🎄' },
